@@ -28,6 +28,7 @@
         "project:lint": "eslint .",
         "project:lintFix": "eslint . --fix",
         "//3": "",
+        "prepare": "husky install",
         "deploy": "git add . && git commit -m 'update' && git push",
         "dev": "cross-env NODE_ENV=development npm run project:start",
         "prod": "cross-env NODE_ENV=production npm run project:build",
