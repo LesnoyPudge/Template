@@ -25,7 +25,7 @@ async function start() {
     try {
         app.listen(PORT, () => console.log(`Server started at: ${PORT}`));
     } catch (error) {
-        console.log('Error: ', error);
+        console.lg('Error: ', error);
         throw new Error(error);
     }
 }
