@@ -56,6 +56,7 @@
                 "int32Hint": false
             }
         ],
-        "no-multi-spaces": ["warn"]
+        "no-multi-spaces": ["warn"],
+        "import/newline-after-import": ["warn", { "count": 3 }]
     }
 }
